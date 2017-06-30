@@ -4,7 +4,11 @@
   "main": "index.js",
   "author": "Ake Tangkananond <iamake@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "serve": "http-server -p 9000 ./"
+  },
   "devDependencies": {
+    "http-server": "^0.10.0",
     "webpack": "^3.0.0"
   },
   "dependencies": {
