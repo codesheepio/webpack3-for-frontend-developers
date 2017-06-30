@@ -1,0 +1,13 @@
+{
+  "name": "webpack3-for-frontend-developers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ake Tangkananond <iamake@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
