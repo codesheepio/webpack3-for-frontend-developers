@@ -1,8 +1,12 @@
-import _ from 'lodash';
-
 function App() {
+  const coord = { lat: 13.7710663, lon: 100.567965 };
+  const place = {
+    ...coord,
+    title: 'The Street Ratchada',
+  };
+
   const elem = document.createElement('div');
-  elem.innerHTML = _.range(0, 10).join(', ');
+  elem.innerHTML = JSON.stringify(place);
   return elem;
 }
 
