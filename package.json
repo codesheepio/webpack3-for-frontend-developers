@@ -5,7 +5,8 @@
   "author": "Ake Tangkananond <iamake@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "http-server -p 9000 ./"
+    "serve": "http-server -p 9000 ./",
+    "build": "webpack"
   },
   "devDependencies": {
     "http-server": "^0.10.0",
